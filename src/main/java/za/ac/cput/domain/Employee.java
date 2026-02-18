@@ -17,7 +17,7 @@ public class Employee {
         this.email = email;
         this.address = address;
     }
-    public Employee(Builder builder){
+    private Employee(Builder builder){
         this.employeeNumber = builder.employeeNumber;
         this.firstName = builder.firstName;
         this.lastName = builder.lastName;
