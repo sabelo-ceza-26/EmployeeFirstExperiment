@@ -15,7 +15,7 @@ public class Address {
         this.city = city;
         this.zipCode = zipCode;
     }
-    public Address(Builder builder){
+    private Address(Builder builder){
         this.streetNum = builder.streetNum;
         this.streetName = builder.streetName;
         this.city = builder.city;
